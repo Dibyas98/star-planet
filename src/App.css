@@ -1,0 +1,40 @@
+.planet{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.planet-card{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+.page{
+    display: flex;
+    align-items: center;
+}
+.people{
+    padding-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.people-not{
+    display: none;
+}
+.card::-webkit-scrollbar {
+    display: none;
+
+}
+.card{
+    /* padding: 1rem; */
+    box-shadow: 0px -7px 4px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 11px -6px 15px 0px rgba(0,0,0,0.12);
+}
+.resident{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
